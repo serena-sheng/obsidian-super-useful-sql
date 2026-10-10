@@ -1,0 +1,8 @@
+# Local plugin state and build output
+data.json
+node_modules/
+.DS_Store
+*.log
+*.db
+*.sqlite
+*.sqlite3

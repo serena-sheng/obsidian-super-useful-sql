@@ -516,7 +516,7 @@ class SuperUsefulSqlView extends ItemView {
     lines.push('');
     try {
       await this.plugin.ensureFolder(folder);
-      const file = await this.plugin.app.vault.create(folder + '/' + name, lines.join('\n'));
+      const file = await this.plugin.app.vault.create(normalizePath(folder + '/' + name), lines.join('\n'));
       new Notice(t('exportOk', file.path));
     } catch (e) {
       new Notice(t('exportFail', String((e && e.message) || e)));

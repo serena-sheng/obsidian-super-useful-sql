@@ -8,6 +8,8 @@ thousands of rows become tens of thousands of files, and your vault index and sy
 Super Useful SQL is the other half of that workflow: keep the bulk data in ordinary `.db` files
 anywhere on disk, and bring only the query and its result into Obsidian.
 
+![The Super Useful SQL side panel: database list, data dictionary, SQL editor and result table](assets/super-useful-sql-panel.png)
+
 ## Features
 
 - **Side panel, not notes.** A dedicated view with a SQL box, a result table, query history and an
